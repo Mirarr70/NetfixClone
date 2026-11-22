@@ -36,7 +36,7 @@
       users.push({ username, email, password });
       saveUsers(users);
       showMsg("Account created! Redirecting to login...", "success");
-      setTimeout(() => { window.location.href = "Sign-in.html"; }, 1200);
+      setTimeout(() => { window.location.href = "sign-in.html"; }, 1200);
     });
   }
 
